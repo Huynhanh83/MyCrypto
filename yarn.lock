@@ -1617,11 +1617,6 @@
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.3.14.tgz#37daaf78069e7948520474c87b80092ea912520a"
   integrity sha512-Q5hTcfdudEL2yOmluA1zaSyPbzWPmJ3XfSWeP3RyoYvS9hnje1ZyagrZOuQ6+1nQC1Gw+7gap3pLNL3xL6UBug==
 
-"@types/jest@^22.2.2":
-  version "22.2.3"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-22.2.3.tgz#0157c0316dc3722c43a7b71de3fdf3acbccef10d"
-  integrity sha512-e74sM9W/4qqWB6D4TWV9FQk0WoHtX1X4FJpbjxucMSVJHtFjbQOH3H6yp+xno4br0AKG0wz/kPtaN599GUOvAg==
-
 "@types/jquery@*":
   version "3.3.31"
   resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.3.31.tgz#27c706e4bf488474e1cb54a71d8303f37c93451b"
@@ -1687,11 +1682,6 @@
   version "8.10.54"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.54.tgz#1c88eb253ac1210f1a5876953fb70f7cc4928402"
   integrity sha512-kaYyLYf6ICn6/isAyD4K1MyWWd5Q3JgH6bnMN089LUx88+s4W8GvK9Q6JMBVu5vsFFp7pMdSxdKmlBXwH/VFRg==
-
-"@types/node@^9.6.2":
-  version "9.6.52"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.52.tgz#ddba1f1fdaf1487a0a992ee238c43f5318ba5625"
-  integrity sha512-d6UdHtc8HKe3NTruj9mHk2B8EiHZyuG/00aYbUedHvy9sBhtLAX1gaxSNgvcheOvIZavvmpJYlwfHjjxlU/Few==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -1847,7 +1837,7 @@
   dependencies:
     redux "^3.6.0"
 
-"@types/remote-redux-devtools@^0.5.2":
+"@types/remote-redux-devtools@0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@types/remote-redux-devtools/-/remote-redux-devtools-0.5.3.tgz#04a1ed04566bfd0115be14dc933d5c47a6e59676"
   integrity sha512-BiYLbXBzN4HA/pSgwlebtAwd35L+PD4lkUPPxzHqFQCZDP5bHTuRp8xCUQDKiU2iRWBgtI9cZRgQQR0Pv1LF3w==
@@ -1877,10 +1867,10 @@
     "@types/node" "*"
     "@types/react" "*"
 
-"@types/url-search-params@^0.10.1":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@types/url-search-params/-/url-search-params-0.10.2.tgz#bf7587e67953906ea67a8ff0ddbcb6f4482ebaa3"
-  integrity sha512-AaM3cTaHIbIJecuqf15ystbsUL3rtiJHZHhv6hTu1hBeKbvGwUNdHXfqNiY2LMWIT8ip6SqA+M9wYWIsQiMH2g==
+"@types/url-search-params@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@types/url-search-params/-/url-search-params-1.1.0.tgz#4eb56e850255ec83c534b199ab548e88972da8a8"
+  integrity sha512-MAiEDfjOmuZLSx2rrRj3rR2729wygQbq5mdQsEW4gMRFRDoW93lUU3n0ablmbAIL9pzharzhmcEjrO2zW0JSKg==
 
 "@types/uuid@3.4.3":
   version "3.4.3"
@@ -3329,7 +3319,7 @@ bser@^2.0.0:
   dependencies:
     node-int64 "^0.4.0"
 
-btoa@^1.2.1:
+btoa@1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/btoa/-/btoa-1.2.1.tgz#01a9909f8b2c93f6bf680ba26131eb30f7fa3d73"
   integrity sha512-SB4/MIGlsiVkMcHmT+pSmIPoNDoHg+7cMzmt3Uxt628MTz2487DKSqK/fuhFBrkuqrYv5UCEnACpF4dTFNKc/g==
@@ -9705,7 +9695,7 @@ jsonpointer@^4.0.0:
   resolved "https://registry.yarnpkg.com/jsonpointer/-/jsonpointer-4.0.1.tgz#4fd92cb34e0e9db3c89c8622ecf51f9b978c6cb9"
   integrity sha1-T9kss04OnbPInIYi7PUfm5eMbLk=
 
-jsonschema@1.2.4, jsonschema@^1.2.4:
+jsonschema@1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/jsonschema/-/jsonschema-1.2.4.tgz#a46bac5d3506a254465bc548876e267c6d0d6464"
   integrity sha512-lz1nOH69GbsVHeVgEdvyavc/33oymY1AZwtePMiMj4HZPMbP5OIKK3zT9INMWjwua/V4Z4yq7wSlBbSG+g4AEw==
@@ -11231,25 +11221,6 @@ mycrypto-nano-result@0.0.1:
   resolved "https://registry.yarnpkg.com/mycrypto-nano-result/-/mycrypto-nano-result-0.0.1.tgz#c1d3208458dc485441b0230c69948f62344f9d5a"
   integrity sha512-QIzFjMlVjsyzGXWhI/3PTKoOdjlxjSp8YX3ksMDwrciow+rFTRTu0qfM72tYiADBdDgCu7vQxOnNd0F0BP0LFA==
 
-mycrypto-shepherd@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/mycrypto-shepherd/-/mycrypto-shepherd-1.4.0.tgz#ad86e0f18040da524631bf471bce03ba65c165a3"
-  integrity sha512-PNLs9Ux1vytKoEj+CFRe3ecFj6/fqTdGvJPf4XyAmbpK4IB+8v7D3CRdtRtZ4BbN83rsC8PoSAX4fTXFRl6/fA==
-  dependencies:
-    "@types/jest" "^22.2.2"
-    "@types/node" "^9.6.2"
-    "@types/remote-redux-devtools" "^0.5.2"
-    "@types/url-search-params" "^0.10.1"
-    bn.js "^4.11.8"
-    btoa "^1.2.1"
-    isomorphic-fetch "^2.2.1"
-    jsonschema "^1.2.4"
-    randombytes "^2.0.6"
-    redux "^3.7.2"
-    redux-saga "^0.16.0"
-    remote-redux-devtools "^0.5.12"
-    url-search-params "^0.10.0"
-
 mz@^2.1.0, mz@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/mz/-/mz-2.7.0.tgz#95008057a56cafadc2bc63dde7f9ff6955948e32"
@@ -11275,9 +11246,9 @@ nanoassert@^1.0.0:
   integrity sha1-TzFS4JVA/eKMdvRLGbvNHVpCR40=
 
 nanoid@^2.0.0:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.3.tgz#5130db537fca20d2676515fe7b8ecf8e22192914"
-  integrity sha512-SbgVmGjEUAR/rYdAM0p0TCdKtJILZeYk3JavV2cmNVmIeR0SaKDudLRk58au6gpJqyFM9qz8ufEsS91D7RZyYA==
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.4.tgz#c38b2c1f7f4c60cde2291f40854420328d0d621e"
+  integrity sha512-PijW88Ry+swMFfArOrm7uRAdVmJilLbej7WwVY6L5QwLDckqxSOinGGMV596yp5C8+MH3VvCXCSZ6AodGtKrYQ==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -13209,7 +13180,7 @@ randomatic@^3.0.0:
     kind-of "^6.0.0"
     math-random "^1.0.1"
 
-randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.0.6:
+randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
   integrity sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==
@@ -13874,11 +13845,6 @@ redux-saga@0.16.0:
   resolved "https://registry.yarnpkg.com/redux-saga/-/redux-saga-0.16.0.tgz#0a231db0a1489301dd980f6f2f88d8ced418f724"
   integrity sha1-CiMdsKFIkwHdmA9vL4jYztQY9yQ=
 
-redux-saga@^0.16.0:
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/redux-saga/-/redux-saga-0.16.2.tgz#993662e86bc945d8509ac2b8daba3a8c615cc971"
-  integrity sha512-iIjKnRThI5sKPEASpUvySemjzwqwI13e3qP7oLub+FycCRDysLSAOwt958niZW6LhxfmS6Qm1BzbU70w/Koc4w==
-
 redux-test-utils@0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/redux-test-utils/-/redux-test-utils-0.2.2.tgz#593213f30173c5908f72315f08b705e1606094fe"
@@ -14044,7 +14010,7 @@ remark-parse@^5.0.0:
     vfile-location "^2.0.0"
     xtend "^4.0.1"
 
-remote-redux-devtools@^0.5.12:
+remote-redux-devtools@0.5.16:
   version "0.5.16"
   resolved "https://registry.yarnpkg.com/remote-redux-devtools/-/remote-redux-devtools-0.5.16.tgz#95b1a4a1988147ca04f3368f3573b661748b3717"
   integrity sha512-xZ2D1VRIWzat5nsvcraT6fKEX9Cfi+HbQBCwzNnUAM8Uicm/anOc60XGalcaDPrVmLug7nhDl2nimEa3bL3K9w==
@@ -16689,10 +16655,10 @@ url-search-params-polyfill@3.0.0:
   resolved "https://registry.yarnpkg.com/url-search-params-polyfill/-/url-search-params-polyfill-3.0.0.tgz#145fae5b19fc72e8e0a148a2b3ee5330c58f9555"
   integrity sha512-oRNWuBkJ/zKKK1aiBaTBZTf07zOKd0g+nJYB+vFNPO14gFjA75BaHgIJLtveWBRxI/2qff7xcTb9H6wkpTmqjg==
 
-url-search-params@^0.10.0:
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/url-search-params/-/url-search-params-0.10.2.tgz#e9da69646e48c6140c6732e1f07fb669525f5a4e"
-  integrity sha512-d6GYsr992Bo9rzTZFc9BUw3UFAAg3prE9JGVBgW2TLTbI3rSvg4VDa0BFXHMzKkWbAuhrmaFWpucpRJl+3W7Jg==
+url-search-params@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/url-search-params/-/url-search-params-1.1.0.tgz#865669a6e4e9e5543f86fc972b27c91485375326"
+  integrity sha512-XiO5GLAxmlZgdLob/RmKZRc2INHrssMbpwD6O46JkB1aEJO4fkV3x3mR6+CDX01ijfEUwvfwCiUQZrKqfm1ILw==
 
 url-to-options@^1.0.1:
   version "1.0.1"

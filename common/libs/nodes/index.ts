@@ -1,5 +1,4 @@
-import { shepherd, redux } from 'mycrypto-shepherd';
-import { IProviderConfig } from 'mycrypto-shepherd/dist/lib/ducks/providerConfigs';
+import { shepherd, redux, IProviderConfig } from 'vendor/mycrypto-shepherd';
 
 import { NodeConfig } from 'types/node';
 import { tokenBalanceHandler } from './tokenBalanceProxy';

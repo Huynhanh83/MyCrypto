@@ -1,7 +1,7 @@
 import { delay, SagaIterator } from 'redux-saga';
 import { call, fork, put, take, select, apply } from 'redux-saga/effects';
 import { cloneableGenerator, SagaIteratorClone } from 'redux-saga/utils';
-import { shepherd } from 'mycrypto-shepherd';
+import { shepherd } from 'vendor/mycrypto-shepherd';
 
 import { translateRaw } from 'translations';
 import { makeAutoNodeName } from 'libs/nodes';

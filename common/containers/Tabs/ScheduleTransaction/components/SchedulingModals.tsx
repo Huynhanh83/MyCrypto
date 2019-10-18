@@ -15,7 +15,7 @@ import {
   transactionSelectors
 } from 'features/transaction';
 import * as derivedSelectors from 'features/selectors';
-import { TxObj } from 'mycrypto-shepherd/dist/lib/types';
+import { TxObj } from 'vendor/mycrypto-shepherd';
 import './SchedulingModals.scss';
 
 interface Props {
